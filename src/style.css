@@ -1,0 +1,36 @@
+.input {
+    position: relative;
+    z-index: 1;
+}
+
+.search-box {
+    min-width: 370px;
+    background: whitesmoke;
+    margin: 20px;
+}
+
+.form-map {
+    padding: 10px;
+}
+
+form > input {
+    margin: 10px 10px 0 10px;
+    height: 40px;
+}
+
+form > input:first-child {
+    margin: 10px 0px 0 10px;
+}
+
+.mapStyle {
+    position: inherit !important;
+    margin: auto;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.clear-btn {
+    margin-top: 11px;
+    height: 40px;
+}
